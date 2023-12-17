@@ -1,5 +1,5 @@
 ## Giải 
-- Sau khi tải xuống em được 1 file chưa code py như sau:
+- Sau khi tải xuống em được 1 file chứa code python như sau:
 ```text
 import string
 import random
