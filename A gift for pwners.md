@@ -9,4 +9,5 @@
 > Phần 2 : for_the_
 - Hint tiếp theo : The last part is somewhere in the file but I don',27h,'t remember
 > Phần 3 : pwners_0xdeadbeef}
+- Sau khi kết hợp các phần lại với nhau flag sẽ là 
 > Flag : KCSC{A_gift_for_the_pwners_0xdeadbeef}
