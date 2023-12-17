@@ -11,7 +11,7 @@
 - Câu lệnh này chuyển file code.zip thành hash rồi đưa vào file hash.txt
 - Em sử dụng wordlist rockyou để brute force nó
 ```text
-└─$ sudo john --wordlist=/usr/share/wordlists/rockyou.txt hash
+└─$ sudo john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
 Using default input encoding: UTF-8
 Loaded 1 password hash (PKZIP [32/64])
 Will run 4 OpenMP threads
