@@ -2,7 +2,8 @@
 - Sau khi truy cập được trang web mì tôm thanh long với đường dẫn: `http://103.162.14.116:10002/`
 - Thứ đầu tiên em nghĩ ngay đến là tìm đường dẫn đi đến flag
 - Em bắt đầu lục source code nhưng vẫn không có 
-- Hết cách em dùng đến công cụ dirsearch 
+- Hết cách em phải dùng đến cách brute force xem thử có đường dẫn nào hay không
+- Sau 1 hồi tra gg thì em biết được công cụ mang tên dirsearch.
 > dirsearch -u http://103.162.14.116:10002/ 
 ```text
 
@@ -41,6 +42,7 @@ Target: http://103.162.14.116:10002/
                                                                              
 Task Completed                                                                                                                                                             
 ```
-- Có thể thấy có rất nhiều đường dẫn nhưng ta chỉ cần chú ý đến các đường dẫn truy cập được
-- Có 1 file flag.txt nên em vào thử `http://103.162.14.116:10002/flag.txt`
+- Có thể thấy có rất nhiều đường dẫn nhưng hầu hết trả về 403
+- Chỉ có các đường dẫn truy cập được như flag.txt, /images, /includes, /pages truy cập lần lượt thì flag xuất hiện tại /flag.txt
+`http://103.162.14.116:10002/flag.txt`
 > Flag : KCSC{Lan_Dau_Tien_Trai_Thanh_Long_Co_Trong_KCSC:))}
